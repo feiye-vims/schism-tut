@@ -66,13 +66,9 @@ If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll loc
 
 ---
 
-## About the project
+## Acknowledgement on the "just-the-docs" theme
 
-Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](http://patrickmarsceill.com).
-
-### License
-
-Just the Docs is distributed by an [MIT license](https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt).
+Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](http://patrickmarsceill.com), which is distributed by an [MIT license](https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt).
 
 ### Contributing
 
