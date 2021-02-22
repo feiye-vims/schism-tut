@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Tutorial
 description: A tutorial for 2D compound flooding model setup
-baseurl: "/schism_tutorial" # the subpath of your site, e.g. /blog
+baseurl: "/schism-tutorial" # the subpath of your site, e.g. /blog
 url: "https://feiye-vims.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
