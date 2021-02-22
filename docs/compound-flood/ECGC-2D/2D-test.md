@@ -3,7 +3,6 @@ layout: default
 title: test
 parent: ECGC 2D setup
 ---
-:wa
 
 # Color Utilities
 {: .no_toc }
