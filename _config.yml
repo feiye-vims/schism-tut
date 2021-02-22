@@ -65,7 +65,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "This tutorial on GitHub":
-      - "//github.com/feiye-vims/Tutorial_jtd_template"
+      - "//github.com/feiye-vims/schism-tutorial"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
