@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2D Compound Flood Model
-parent: Compound Flood
+parent: Compound Flooding Models
 nav_order: 1
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Layout
-parent: Utilities
+title: 3D Compound Flooding Models
+parent: Compound Flooding Models
 ---
 
 # Layout Utilities
