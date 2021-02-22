@@ -3,7 +3,7 @@ layout: default
 title: ECGC 2D setup
 has_children: true
 parent: Compound Flooding Models
-permalink: docs/compound-flood
+permalink: docs/compound-flood/ECGC-2D/
 ---
 
 # Utilities
