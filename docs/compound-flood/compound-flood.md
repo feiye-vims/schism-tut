@@ -19,7 +19,7 @@ Select the one you need and follow its workflow to setup the model.
 Click on the workflow to open it in another tab, where a link to each input is provided along with the workflow.
 
 ## 2D ECGC (East Coast and Gulf Coast) setup
-[<img src="../../assets/images/workflow_2d_ecgc.png">](http://ccrm.vims.edu/yinglong/feiye/Workshop_20190701/TEMP/Doc/ECGC2D.html){:target="_blank"}
+[<img src="workflow_2d_ecgc.png">](http://ccrm.vims.edu/yinglong/feiye/Workshop_20190701/TEMP/Doc/ECGC2D.html){:target="_blank"}
 
 ---
 
