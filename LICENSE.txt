@@ -1,7 +1,8 @@
 The MIT License (MIT)
 
-The "just-this-doc" theme is under Copyright (c) 2016 Patrick Marsceill; the
-rest of the contents are under Copyright (c) 2021 SCHISM Modeling Group
+The "just-the-doc" theme used for the template of the tutorial is under 
+Copyright (c) 2016 Patrick Marsceill; the rest of the contents are under 
+Copyright (c) 2021 SCHISM Modeling Group.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
