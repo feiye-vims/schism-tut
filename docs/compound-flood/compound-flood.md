@@ -6,20 +6,26 @@ has_children: true
 permalink: docs/compound-flood
 ---
 
-# Some topic
+# Overview
 {: .no_toc }
 
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-      1. Item 3b
+Some overview
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+# Workflows
+{: .no_toc }
 
+Several different setups are provided here.
+Select the one you need and follow its workflow to setup the model.
+Click on the workflow to open it in another tab, where a link to each input is provided along with the workflow.
 
-CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size.
-{: .fs-6 .fw-300 }
+## 2D ECGC (East Coast and Gulf Coast) setup
+[<img src="../../assets/images/workflow_2d_ecgc.png">](http://ccrm.vims.edu/yinglong/feiye/Workshop_20190701/TEMP/Doc/ECGC2D.html){:target="_blank"}
+
+---
+
+## 3D ECGC (East Coast and Gulf Coast) setup
+
+---
+
+Alternatively, you can peruse all relavant inputs.
+

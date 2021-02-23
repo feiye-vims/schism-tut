@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Customization
-nav_order: 6
+title: Making your own tutorials
+nav_order: 89
 ---
 
 # Customization
