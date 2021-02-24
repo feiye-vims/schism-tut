@@ -19,16 +19,18 @@ Please contact Fei Ye (feiye@vims.edu) to be included as a collaborator of the [
 
 ## Location to put your stuff
 
-To add a new tutorial or a new page in the existing tutorials, you only need to worry about the "docs/" folder,
-which looks like:
+To add a new tutorial or a new page in the existing tutorials, you only need to worry about the "docs/" folder:
 ```
 docs/
 ├── compound-flood
 │   ├── compound-flood.md
 │   ├── hgrid_cpp.md
 │   └── workflow_2d_ecgc.png
-├── making-your-own-tutorials.md
+├── share-your-own-tutorials
+│   ├── share-your-own-tutorials.md
+│   └── edit.png
 ```
+, in which each topic consists a sub-folder.
 
 ## Adding a new tutorial
 
@@ -41,7 +43,9 @@ docs/
 │   └── workflow_2d_ecgc.png
 ├── your_tutorial
 │   └── your_tutorial.md
-├── making-your-own-tutorials.md
+├── share-your-own-tutorials
+│   ├── share-your-own-tutorials.md
+│   └── edit.png
 ```
 Note that "your_tutorial.md" shares the same name as your tutorial folder.
 - If your content is short enough to fit in a single page, you can put all texts in "your_tutorial.md" and any additional materials (e.g., "your_tutorial_figure.png") under the same folder ("your_tutorial/").
@@ -69,7 +73,9 @@ docs/
 │   ├── page_1.md
 │   ├── a_figure_for_page_1.png
 │   └── page_2.md
-├── making-your-own-tutorials.md
+├── share-your-own-tutorials
+│   ├── share-your-own-tutorials.md
+│   └── edit.png
 ```
 Finally, you need to specify the parent and children relationship:
 1. At the beginning of "your_tutorial.md": set an appropriate title; assign any value to "nav_order"; set "has_children: true". For example,
