@@ -112,11 +112,12 @@ You can use `docs/compound-flood/param.md` as a template.
 This is similar to adding things in a [Long tutorial](#long-tutorial), just remember to set a parent at the beginning few lines of your newly added page (\*.md).
 
 ## Minor edits
-If you need to do some minor edits on the existing pages of a tutorial, the easiest way is probably directly editing the source code on Github's webpage.
-Click the link (
-<img src="{{ site.baseurl }}{% link docs/share-your-own-tutorials/edit.png %}" alt="edit" width="200"/>
-) at the bottom of any page will lead you to the source code of that page in the Git repo.
-But we do ask you to provide a brief and sensible commit message.
+If you need to do some minor edits on an existing page of a tutorial, the easiest way is probably directly editing the \*.md file on Github's webpage.
+Simply click the link at the bottom of any page,\
+<img src="{{ site.baseurl }}{% link docs/share-your-own-tutorials/edit.png %}" alt="edit" width="200"/>\
+It leads you to the source code of that page in the Git repo, where you can find an "edit" button at the top-right:\
+<img src="{{ site.baseurl }}{% link docs/share-your-own-tutorials/edit1.png %}" alt="edit1" width="200"/>\
+We do ask you to provide a brief and sensible commit message.
 
 ## Linking your existing tutorial
 
