@@ -51,7 +51,7 @@ We recommend that you use [markdown](https://www.markdownguide.org/cheat-sheet/)
 (1) accomodate for the people who are not familiar with HTML, so that everybody can make changes to or build on your tutorial;
 (2) keep the source code and page layout simple for the VIMS team to check.
 
-For more details, check the guidance in [Share your own tutorials]({{ site.baseurl }}{% link docs/share-your-own-tutorials.md %}).
+For more details, check the guidance in [Share your own tutorials]({{ site.baseurl }}{% link docs/share-your-own-tutorials/share-your-own-tutorials.md %}).
 
 ---
 
