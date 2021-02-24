@@ -83,7 +83,7 @@ permalink: docs/your_tutorial
 ---
 ```
 You can use `docs/compound-flood/compound-flood.md` as a template.
-1. In the \*.md file of each page, set the "parent" to be the same as your tutorial's title in the previous step, for example:
+1. In the \*.md files of other pages, set the "parent" to be the same as your tutorial's title in the previous step, for example:
 ```markdown
 ---
 layout: default
