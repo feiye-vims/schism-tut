@@ -48,6 +48,9 @@ docs/
 │   └── edit.png
 ```
 Note that "your_tutorial.md" shares the same name as your tutorial folder.
+
+### Short tutorial
+
 - If your content is short enough to fit in a single page, you can put all texts in "your_tutorial.md" and any additional materials (e.g., "your_tutorial_figure.png") under the same folder ("your_tutorial/").
 Remember to set a title at the beginning of "your_tutorial.md".
 You don't need to worry about the "nav_order", we will periodically re-order the new tutorials.
@@ -59,6 +62,9 @@ title: Share your own tutorials
 nav_order: 90
 ---
 ```
+
+### Long tutorial
+
 - If you need multiple pages for your tutorial, "your_tutorial.md" is a good place to put a summary of your tutorial.
 See the summary page of [Compound flooding model]({{ site.baseurl }}{% link docs/compound-flood/compound-flood.md %}) for an example.
 Then, add other pages and additional materials under the same folder like:
@@ -101,6 +107,9 @@ permalink: docs/your_tutorial/page_1/
 ```
 Here, the "nav_order" only has local effect under "Your Tutorial", and you should assign an appropriate value to each of your tutorial pages.
 You can use `docs/compound-flood/param.md` as a template.
+
+## Adding a new page to an existing tutorial
+This is similar to adding things in a [Long tutorial](#long-tutorial), just remember to set a parent at the beginning few lines of your newly added page (\*.md).
 
 ## Minor edits
 If you need to do some minor edits on the existing pages of a tutorial, the easiest way is probably directly editing the source code on Github's webpage.
