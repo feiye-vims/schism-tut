@@ -10,7 +10,7 @@ All SCHISM users are welcome to share their own cases to this tutorial site.
 All contributions are appreciated, be it
 as simple as a suggestion on the existing procedure,
 or a pre/post precessing script,
-or something more complex like the [Compound flooding model](../compound-flood#top),
+or something more complex like the [Compound flooding model]({{ site.baseurl }}{% link docs/compound-flood/compound-flood.md %}).
 
 Please contact Fei Ye (feiye@vims.edu) to be included as a collaborator of the [Github repository](https://github.com/feiye-vims/schism-tut).
 

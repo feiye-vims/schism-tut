@@ -2,7 +2,7 @@
 layout: default
 title: Horizontal grid in CPP
 parent: Compound Flooding Models
-permalink: docs/compound-flood/hgrid_cpp/
+permalink: docs/compound-flood/hgrid_cpp
 ---
 
 # Overview
