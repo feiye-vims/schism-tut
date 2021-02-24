@@ -123,6 +123,8 @@ But we do ask you to provide a brief and sensible commit message.
 You are welcome to provide a link to your existing online tutorial.
 You can make it as a single-page short tutorial, provide a brief introduction, then make an [external link](#links) to your online tutorial.
 
+See an example here: [Acetool tips]({{ site.baseurl }}{% link docs/acetool-tips/acetool-tips.md %}).
+
 ## Links
 If you want to link to a content within this tutorial, use the syntax in the following example:
 ```
