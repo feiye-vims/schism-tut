@@ -112,7 +112,7 @@ But we do ask you to provide a brief and sensible commit message.
 ## Linking your existing tutorial
 
 You are welcome to provide a link to your existing online tutorial.
-You can follow the steps in [Short tutorial](#short-tutorial), provide a brief introduction and make an [external link](#links) to your online tutorial.
+You can make it as a single-page short tutorial, provide a brief introduction, then make an [external link](#links) to your online tutorial.
 
 ## Links
 If you want to link to a content within this tutorial, use the syntax in the following example:
