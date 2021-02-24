@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Bathymetry loading
-nav_order: 20
-has_children: true
-permalink: docs/compound-flood
+parent: Compound Flooding Models
+nav_order: 1
+permalink: docs/compound-flood/loading_bathy
 ---
 
 DEM files
