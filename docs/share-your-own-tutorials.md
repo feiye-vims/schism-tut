@@ -71,7 +71,7 @@ docs/
 ```
 
 Then do the following:
-1. Set title. No need to worry about the "nav_order". Set "has_children: true" at the beginning of "your_tutorial.md". For example,
+1. At the beginning of "your_tutorial.md": set an appropriate title; assign any value to "nav_order"; set "has_children: true". For example,
 ```markdown
 ---
 layout: default
