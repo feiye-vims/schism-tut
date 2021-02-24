@@ -7,10 +7,22 @@ nav_order: 1
 
 # DEM files
 DEM files used in the ECGC (East Coast and Gulf Coast) setup are provided on these clusters:
-W&M's Sciclone: /sciclone/data10/whuang07/NWM/DEM/DEM/
-VIMS' James: /ches/data10/whuang07/Case1/DEMs/DEM_pre/DEM/
-Stampede2: /work/06923/wendy611/stampede2/NWM/DEM/DEM/
-Corral3 (DesignSafe): /gpfs/corral3/repl/projects/NHERI/projects/8958936882960536041-242ac11a-0001-012/vims_noaa_archive/DEM/
+W&M's Sciclone: 
+```
+/sciclone/data10/whuang07/NWM/DEM/DEM/
+```
+VIMS' James: 
+```
+/ches/data10/whuang07/Case1/DEMs/DEM_pre/DEM/
+```
+Stampede2: 
+```
+/work/06923/wendy611/stampede2/NWM/DEM/DEM/
+```
+Corral3 (DesignSafe): 
+```
+/gpfs/corral3/repl/projects/NHERI/projects/8958936882960536041-242ac11a-0001-012/vims_noaa_archive/DEM/
+```
 
 # Steps of bathymetry loading (the order matters):
 - Ocean:
