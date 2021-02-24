@@ -2,14 +2,14 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Tutorials on some typical SCHISM applications."
+description: "Tutorials on SCHISM applications and utility scripts"
 permalink: /
 ---
 
 # SCHISM tutorials
 {: .fs-9 }
 
-Tutorials on some typical SCHISM applications.
+Tutorials on SCHISM applications and utility scripts
 {: .fs-6 .fw-300 }
 
 [Get started now](#preparation){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Contribute to the tutorial on GitHub](https://github.com/feiye-vims/schism-tut){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -32,7 +32,7 @@ git clone git@github.com:schism-dev/schism.git [some_dir_name]
 The SCHISM source code will be cloned into a folder called "schism/" by default, if you don't specify "some_dir_name".
 
 The full path to "schism/" or [some_dir_name] will be referred to as [schism_git_dir] throughout this tutorial.
-You can get the full path by
+You can get the full path of SCHISM Git repo on your computer by
 ```bash
 readlink -f [some_dir_name]
 ```
