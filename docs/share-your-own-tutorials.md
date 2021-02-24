@@ -114,7 +114,7 @@ The external links are easier, e.g.:
 # Markdown
 A quick reference of the [Markdown syntax](https://www.markdownguide.org/cheat-sheet/).
 
-# Usage of the Jekyll theme
+# More features
 If you need advanced features for your tutorial page, you can use some HTML syntax in your \*.md files and check the usage of the Jekyll theme of ["Just the Docs"](https://github.com/pmarsceill/just-the-docs).
 However, we recommend that you keep the page layout as simple as possible.
 

@@ -16,12 +16,12 @@ There are three groups of parameters in param.nml, defined by: "CORE", "OPT", an
 
 
 # Important parameters for simulating compound flooding
-- 2D setup:
+- **2D setup**:
 
   - CORE: ibc, ibtp, rnday, dt, nspool, ihfskip
   - OPT: start_*, utc_start, ics, nramp, if_source, nramp_ss, nchi, ic_elev, nws, nrampwind, itur, iflux
 
-- 3D setup:
+- **3D setup**:
 
   - CORE: ibc, rnday, dt, nspool, ihfskip
   - OPT: start_*, utc_start, ics, nramp, if_source, nramp_ss, nchi, ic_elev, nws, nrampwind, itur, iflux, itr_met, indvel, ihorcon, ishapiro, ihconsv, isconsv, i_hmin_airsea_ex, hmin_airsea_ex
