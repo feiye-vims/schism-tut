@@ -13,12 +13,12 @@ Stampede2: /work/06923/wendy611/stampede2/NWM/DEM/DEM/
 Corral3 (DesignSafe): /gpfs/corral3/repl/projects/NHERI/projects/8958936882960536041-242ac11a-0001-012/vims_noaa_archive/DEM/
 
 # Steps of bathymetry loading (the order matters):
-Ocean:
-- etopo1.asc
-Areas not of interest:
-- set a minimum depth of 5 m globally to prevent wetting/drying (e.g., near the Caribbean islands; the areas of interest will be dealt with next)
-Areas of interest
-- Coastal zones: "crm_3arcs*", "cdem13_*", "continetalus_southcarolina*", "North_Carolina_USGS_3m*", "al_ll*", "nc_ll*", "fl_ll*", "gulf_1*", "gulf_3*", "ge_ll*", "sc_ll*", "cb_ll*", "db_ll*", "new_england*"
+- Ocean:
+> etopo1.asc
+- Areas not of interest:
+> set a minimum depth of 5 m globally to prevent wetting/drying (e.g., near the Caribbean islands; the areas of interest will be dealt with next)
+- Areas of interest, Coastal zones:
+> crm_3arcs\*, cdem13_\*, continetalus_southcarolina\*, North_Carolina_USGS_3m\*, al_ll\*, nc_ll\*, fl_ll\*, gulf_1\*, gulf_3\*, ge_ll\*, sc_ll\*, cb_ll\*, db_ll\*, new_england\*
 
 # Script
 The DEMs in each batch can be loaded in parallel by a fortran script:
