@@ -42,8 +42,8 @@ docs/
 ├── your_tutorial.md
 ├── making-your-own-tutorials.md
 ```
-Remember to set a title and a "nav_order" in the beginning of the \*.md file.
-For your new tutorial, you can use any nav_order value between 11 and 89, which may or may not be changed by the VIMS team later.
+Remember to set a title at the beginning of the \*.md file.
+You don't need to worry about the "nav_order", we will periodically re-order the new pages.
 For example, the beginning lines of the source code of this page (making-your-own-tutorials.md) look like:
 ```markdown
 ---
@@ -71,7 +71,7 @@ docs/
 ```
 
 Then do the following:
-1. In addition to setting the  title and nav_order, set "has_children: true" at the beginning of "your_tutorial.md". For example,
+1. Set title. No need to worry about the "nav_order". Set "has_children: true" at the beginning of "your_tutorial.md". For example,
 ```markdown
 ---
 layout: default
@@ -81,7 +81,6 @@ has_children: true
 permalink: docs/your_tutorial
 ---
 ```
-For your new tutorial, you can use any nav_order value between 11 and 89, which may or may not be changed by the VIMS team later.
 Note that "your_tutorial.md" shares the same name as your tutorial folder.
 This is a good place to put a summary of your tutorial.
 See the summary page of [Compound flooding model]({{ site.baseurl }}{% link docs/compound-flood/compound-flood.md %}) for an example.
@@ -92,9 +91,11 @@ See the summary page of [Compound flooding model]({{ site.baseurl }}{% link docs
 layout: default
 title: Horizontal grid in CPP
 parent: Your Tutorial
+nav_order: 1
 permalink: docs/your_tutorial/page_1/
 ---
 ```
+Here, the "nav_order" only has local effect under "Your Tutorial", and you should assign an appropriate value to each of your tutorial pages.
 
 ## Minor edits
 If you need to do some minor edits on the existing pages of a tutorial, the easiest way is probably directly editing the source code on Github's webpage.
