@@ -22,13 +22,13 @@ Corral3 (DesignSafe): /gpfs/corral3/repl/projects/NHERI/projects/895893688296053
 
 # Script
 The DEMs in each batch can be loaded in parallel by a fortran script:
-
+```
 [SCHISM GIT]/src/Utility/Pre-Processing/NWM/Load_Bathy_mpi/interpolate_depth_structured2_mpi.F90
-
+```
 Follow the steps in
-
+```
 [SCHISM GIT]/src/Utility/Pre-Processing/NWM/Load_Bathy_mpi/README
-
+```
 For the participants of the NOAA 202102 workshop, you can try this if you have access to TACC's Stampede2, where the DEMs are provided; if not, feel free to try it on your home cluster with your own DEMs later. You can contact Dr. Wei Huang (whuang@vims.edu) for any questions.
 
 The compile command on Stampede2 is: mpiifort -O2 -mcmodel=medium -o interpolate_depth_structured2_mpi interpolate_depth_structured2_mpi.f90
