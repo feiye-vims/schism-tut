@@ -7,6 +7,7 @@ permalink: docs/share-your-own-tutorials
 
 # Become a collaborator
 All SCHISM users are welcome to share their own cases to this tutorial site.
+
 All contributions are appreciated, be it
 as simple as a suggestion on the existing procedure,
 or a pre/post precessing script,
@@ -18,7 +19,7 @@ Please contact Fei Ye (feiye@vims.edu) to be included as a collaborator of the [
 
 ## Location to put your stuff
 
-To add a new tutorial or a new page in the existing tutorials, you only need to worry about the "doc" folder,
+To add a new tutorial or a new page in the existing tutorials, you only need to worry about the "docs/" folder,
 which looks like:
 ```
 docs/
@@ -42,8 +43,8 @@ docs/
 ├── making-your-own-tutorials.md
 ```
 Remember to set a title and a "nav_order" in the beginning of the \*.md file.
-For your new tutorial, you can use any nav_order value between 11 and 89, which may or may not be changed by the VIMS team.
-For example, the beginning lines of the source code (making-your-own-tutorials.md) of this page looks like:
+For your new tutorial, you can use any nav_order value between 11 and 89, which may or may not be changed by the VIMS team later.
+For example, the beginning lines of the source code of this page (making-your-own-tutorials.md) look like:
 ```markdown
 ---
 layout: default
@@ -80,8 +81,10 @@ has_children: true
 permalink: docs/your_tutorial
 ---
 ```
-For your new tutorial, you can use any nav_order value between 11 and 89, which may or may not be changed by the VIMS team.
-Add some introduction in "your_tutorial.md". Note that this file shares the same name as the parent folder.
+For your new tutorial, you can use any nav_order value between 11 and 89, which may or may not be changed by the VIMS team later.
+Note that "your_tutorial.md" shares the same name as your tutorial folder.
+This is a good place to put a summary of your tutorial.
+See the summary page of [Compound flooding model]({{ site.baseurl }}{% link docs/compound-flood/compound-flood.md %}) for an example.
 
 2. Add a \*.md file for each page of your tutorial. Set the "parent" to be the same as your tutorial's title in the previous step, for example:
 ```markdown
@@ -93,6 +96,25 @@ permalink: docs/your_tutorial/page_1/
 ---
 ```
 
-## Minor changes
+## Minor edits
 If you need to do some minor edits on the existing pages of a tutorial, the easiest way is probably directly editing the source code on Github's webpage.
 But we do ask you to provide a brief and sensible commit message.
+
+## Links
+If you want to link to a content within this tutorial, use the syntax in the following example:
+```
+{% raw %} [Compound flooding model]({{ site.baseurl }}{% link docs/compound-flood/compound-flood.md %}) {% endraw %}
+```
+
+The external links are easier, e.g.:
+```markdown
+[Markdown syntax](https://www.markdownguide.org/cheat-sheet/)
+```
+
+# Markdown
+A quick reference of the [Markdown syntax](https://www.markdownguide.org/cheat-sheet/).
+
+# Usage of the Jekyll theme
+If you need advanced features for your tutorial page, you can use some HTML syntax in your \*.md files and check the usage of the Jekyll theme of ["Just the Docs"](https://github.com/pmarsceill/just-the-docs).
+However, we recommend that you keep the page layout as simple as possible.
+
