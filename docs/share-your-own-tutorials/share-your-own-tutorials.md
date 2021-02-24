@@ -51,11 +51,11 @@ Note that "your_tutorial.md" shares the same name as your tutorial folder.
 - If your content is short enough to fit in a single page, you can put all texts in "your_tutorial.md" and any additional materials (e.g., "your_tutorial_figure.png") under the same folder ("your_tutorial/").
 Remember to set a title at the beginning of "your_tutorial.md".
 You don't need to worry about the "nav_order", we will periodically re-order the new tutorials.
-For example, the beginning lines of the source code of the current page (`docs/making-your-own-tutorials/making-your-own-tutorials.md`) look like:
+For example, the beginning lines of the source code of the current page (`docs/share-your-own-tutorials/share-your-own-tutorials.md`) look like:
 ```markdown
 ---
 layout: default
-title: Making your own tutorials
+title: Share your own tutorials
 nav_order: 90
 ---
 ```
