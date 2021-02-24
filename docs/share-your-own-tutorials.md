@@ -43,8 +43,8 @@ docs/
 ├── making-your-own-tutorials.md
 ```
 Remember to set a title at the beginning of the \*.md file.
-You don't need to worry about the "nav_order", we will periodically re-order the new pages.
-For example, the beginning lines of the source code of this page (making-your-own-tutorials.md) look like:
+You don't need to worry about the "nav_order", we will periodically re-order the new tutorials.
+For example, the beginning lines of the source code of the current page (`docs/making-your-own-tutorials.md`) look like:
 ```markdown
 ---
 layout: default
@@ -83,7 +83,7 @@ permalink: docs/your_tutorial
 ```
 Note that "your_tutorial.md" shares the same name as your tutorial folder.
 This is a good place to put a summary of your tutorial.
-See the summary page of [Compound flooding model]({{ site.baseurl }}{% link docs/compound-flood/compound-flood.md %}) and its source code (docs/compound-flood/compound-flood.md) for an example.
+See the summary page of [Compound flooding model]({{ site.baseurl }}{% link docs/compound-flood/compound-flood.md %}) and its source code (`docs/compound-flood/compound-flood.md`) for an example.
 
 2. Add a \*.md file for each page of your tutorial. Set the "parent" to be the same as your tutorial's title in the previous step, for example:
 ```markdown
@@ -96,7 +96,7 @@ permalink: docs/your_tutorial/page_1/
 ---
 ```
 Here, the "nav_order" only has local effect under "Your Tutorial", and you should assign an appropriate value to each of your tutorial pages.
-You can use the source code of this page [docs/compound-flood/param.md]({{ site.baseurl }}{% link docs/compound-flood/param.md %}) as a template.
+You can use the source code of `docs/compound-flood/param.md` as a template.
 
 ## Minor edits
 If you need to do some minor edits on the existing pages of a tutorial, the easiest way is probably directly editing the source code on Github's webpage.
