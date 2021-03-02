@@ -31,6 +31,8 @@ Corral3 (DesignSafe):
 > set a minimum depth of 5 m globally to prevent wetting/drying (e.g., near the Caribbean islands; the areas of interest will be dealt with next)
 - Areas of interest, Coastal zones:
 > crm_3arcs\*, cdem13_\*, continetalus_southcarolina\*, North_Carolina_USGS_3m\*, al_ll\*, nc_ll\*, fl_ll\*, gulf_1\*, gulf_3\*, ge_ll\*, sc_ll\*, cb_ll\*, db_ll\*, new_england\*
+- Regions that have DEM issues: 
+> At present, we have identified three regions (Bergen Point and Sabine Pass and Washington) where the best DEMs we have show clogged channels which contradicts NOAA navigation charts. This has led to excessive blockage of tides in these regions. Therefore, we have used the navigation charts and our best judgement as DEMs in those regions (BergenPoint.reg, SabinePass.reg, Washington_3.reg). In the future, there regions will be removed from the bathymetry loading script once better DEMs are available.  
 
 # Script
 The DEMs in each batch can be loaded in parallel by a fortran script:
