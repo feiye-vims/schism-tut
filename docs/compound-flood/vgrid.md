@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Vgrid for 2D setups
+title: Vertical grid in 2D
 parent: Compound Flooding Models
 permalink: docs/compound-flood/vgrid
 ---
