@@ -20,7 +20,7 @@ This is also provided in:
 ```bash
 [schism_git_dir]/src/Utility/Pre-Processing/NWM/Grid_manipulation/cpp.in
 ```
-To generate hgrid.cpp from an existing hgrid.ll, you do the following on the command line:
+To generate hgrid.cpp from an existing hgrid.ll, you can do the following on the command line:
 ```bash
 cp -rL [schism_git_dir]/Grid_manipulation/ [your_run_dir]
 cd [your_run_dir]/Grid_manipulation
