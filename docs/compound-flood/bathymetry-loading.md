@@ -51,7 +51,7 @@ mpiifort -O2 -mcmodel=medium -o interpolate_depth_structured2_mpi interpolate_de
 ```
 
 # Alternative Script
-As we move toward Python-based pre- and post-processors, this Python script will eventually replace the Fortran Script in SCHISM GIT:
+As we move toward Python-based pre- and post-processors, the Fortran Script in SCHISM GIT will eventually be replaced by this script:
 ```bash
 /sciclone/data10/wangzg/DEM/pload_depth.py
 ```
