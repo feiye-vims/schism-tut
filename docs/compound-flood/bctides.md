@@ -6,8 +6,14 @@ permalink: docs/compound-flood/bctides
 ---
 
 # Overview
-Under the 2D setup, the bctides.in specifies 8 tidal constituents at a single open boundary with a format similar to ADCIRC's fort.15:
+The input file "bctides.in" specifies the types of open boundary conditions at each open boundary.
+It also specifies the variable values along spatially and temporally uniform open boundaries (e.g., constant water level);
+in the case of more complex (e.g., 3D spatially and temporally varying) open boundaires, additional files are needed to specify variable values (see SCHISM manual).
+Under the 2D compound flooding setup, bctides.in specifies 8 tidal constituents at a single open boundary with a format similar to ADCIRC's fort.15.
+The figure below serves as a quick reference of the structure of bctides.in.
 ![Sample bctides.in](bctides.png)
+[![]({{ site.baseurl }}{% link docs/compound-flood/bctides.png %})](http://ccrm.vims.edu/yinglong/feiye/Workshop_20190701/TEMP/Doc/bctides1.png){:target="_blank"}
+The 3D setup additionally specifies 3D temporally and spatially varying temperature and salinity values along the ocean boundary.
 
 # Scripts
 A Python script is provide under the [pylib](https://github.com/wzhengui/pylibs) library prepared by Dr. Zhengui Wang:
@@ -22,8 +28,6 @@ you can use this script in SCHISM GIT:
 ```bash
 [schism_git_dir]/schism/src/Utility/Tides/tide_fac_improved/tide_fac_improved
 ```
-To generate hgrid.cpp from an existing hgrid.ll, you can do the following on the command line:
-```bash
 
 For a complete reference on "bctides.in", see the SCHISM manual and the sample under your SCHISM GIT directory:
 ```bash
