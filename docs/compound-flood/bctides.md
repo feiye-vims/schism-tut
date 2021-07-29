@@ -11,8 +11,7 @@ It also specifies the variable values along spatially and temporally uniform ope
 in the case of more complex (e.g., 3D spatially and temporally varying) open boundaires, additional files are needed to specify variable values (see SCHISM manual).
 Under the 2D compound flooding setup, bctides.in specifies 8 tidal constituents at a single open boundary with a format similar to ADCIRC's fort.15.
 The figure below serves as a quick reference of the structure of bctides.in.
-![Sample bctides.in](bctides.png)
-[![]({{ site.baseurl }}{% link docs/compound-flood/bctides.png %})](http://ccrm.vims.edu/yinglong/feiye/Workshop_20190701/TEMP/Doc/bctides1.png){:target="_blank"}
+[![Sample bctides.in](bctides.png)](bctides.png)
 The 3D setup additionally specifies 3D temporally and spatially varying temperature and salinity values along the ocean boundary.
 
 # Scripts
