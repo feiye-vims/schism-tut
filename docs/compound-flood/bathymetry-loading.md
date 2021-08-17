@@ -49,14 +49,3 @@ The compile command on Stampede2 is:
 ```bash
 mpiifort -O2 -mcmodel=medium -o interpolate_depth_structured2_mpi interpolate_depth_structured2_mpi.f90
 ```
-
-# Alternative Script
-As we move toward Python-based pre- and post-processors, the Fortran Script in SCHISM GIT will eventually be replaced by this script:
-```bash
-/sciclone/data10/wangzg/DEM/pload_depth.py
-```
-See
-```
-/sciclone/data10/wangzg/readme
-```
-for more details.
