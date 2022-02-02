@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Share your own tutorials
+title: PySCHISM
 nav_order: 70
 permalink: docs/PySCHISM
 ---
