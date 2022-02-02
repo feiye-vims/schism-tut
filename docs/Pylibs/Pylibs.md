@@ -23,7 +23,9 @@ If "pip" fails to resolve the dependencies of the pre-requisites, use conda or m
 
 `pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple pylibs4schism==0.1.10`
 
-If "mpi4py" fails to install, use conda or mamba to install it first "mamba install mpi4py".
+If "mpi4py" fails to install, use conda or mamba to install it first:
+
+`mamba install mpi4py`
 
 
-A tutorial in the format of a Jupter Notebook is available here: [pylibs tutorial](https://github.com/wzhengui/pylibs/blob/master/tutorial.ipynb).
+A tutorial in the format of the Jupter Notebook is available here: [pylibs tutorial](https://github.com/wzhengui/pylibs/blob/master/tutorial.ipynb).
