@@ -13,19 +13,32 @@ Setting up a python environment enables you to take advantage of these readily-m
 We recommend using conda or [mamba](https://github.com/mamba-org/mamba) to manage your python environment.
 
 # Example on W&M's Sciclone
-## Install Mamba
-Select a subcluster (femto is the latest) 
-Copy link to install Mamba from ( ) 
-On sciclone: wget ‘link address’
-In home directory: ./Mamba…sh 
-Yes to conda install 
+## Install Mamba from scratch
+- Select a subcluster (femto is the latest)
+
+- Get the installer from mambaforge:
+
+`wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh`
+
+Under your home directory:
+
+`./Mambaforge-Linux-x86_64.sh`
+
+"chmod +x" if necessary; yes to all installer questions
 
 - Set Mamba base environment to autoload upon logon
-cp /sciclone/home10/feiye/conda_init_rc to your home dir 
-copy this file to the end of your .cshrc file 
-Also at the end of the .cshrc file add ‘conda activate base’ 
+Append the content of this file
+
+`/sciclone/home10/feiye/conda_init_rc`
+
+to the end of your
+
+`~/.cshrc`
+
+This step is required because Mamba does not have the option to write the '.cshrc' directly.
+
+Add one more line 'conda activate base' at the end of the .cshrc file.
 so everytime you login you are in your base environment 
-If you somehow get out of base env, use: conda activate base 
 
 ## Install tool set:
 - [PySCHISM]({{ site.baseurl }}{% link docs/PySCHISM/PySCHISM.md %}) 
