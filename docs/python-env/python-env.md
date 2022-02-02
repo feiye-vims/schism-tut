@@ -7,11 +7,8 @@ permalink: docs/python-env
 
 # Overview
 The VIMS group is migrating all pre/post-precessing tasks to Python-based tools,
-e.g.,
-- [PySCHISM]({{ site.baseurl }}{% link docs/PySCHISM/PySCHISM.md %}) 
-and
-- [Pylibs]({{ site.baseurl }}{% link docs/Pylibs/Pylibs.md %}) 
-. Setting up a python environment enables you to take advantage of these readily-made tools.
+e.g., [PySCHISM]({{ site.baseurl }}{% link docs/PySCHISM/PySCHISM.md %}) and [Pylibs]({{ site.baseurl }}{% link docs/Pylibs/Pylibs.md %}).
+Setting up a python environment enables you to take advantage of these readily-made tools.
 
 We recommend using conda or [mamba](https://github.com/mamba-org/mamba) to manage your python environment.
 
