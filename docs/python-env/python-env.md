@@ -43,6 +43,8 @@ so everytime you login you are in your base environment
 
 ## Install tool set
 
+Select the ones you need:
+
 ### Install ipython
 
 `mamba install ipython`
