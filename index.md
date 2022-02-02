@@ -29,7 +29,7 @@ or
 ```bash
 git clone git@github.com:schism-dev/schism.git [some_dir_name]
 ```
-The SCHISM source code will be cloned into a folder called "schism/" by default, if you don't specify "some_dir_name".
+The SCHISM source code will be cloned into a folder called "schism/" by default if you don't specify "some_dir_name".
 
 The full path to "schism/" or [some_dir_name] will be referred to as [schism_git_dir] throughout this tutorial.
 You can get the full path of SCHISM Git repo on your computer by
