@@ -29,6 +29,7 @@ Install (e.g., under your home directory):
 `chmod +x Mambaforge-Linux-x86_64.sh` if necessary; yes to all installer questions
 
 
+
 ## Autoload Mamba base environment upon logon
 
 - Append the content of this file `/sciclone/home10/feiye/conda_init_rc` to the end of your `~/.cshrc`
@@ -37,24 +38,20 @@ This step is required because Mamba does not have the option to write the '.cshr
 - Add one more line 'conda activate base' at the end of the .cshrc file.
 so everytime you login you are in your base environment 
 
+
+
 ## Install tool set
-- ipython
+
+### Install ipython
 
 `mamba install ipython`
 
-- [PySCHISM]({{ site.baseurl }}{% link docs/PySCHISM/PySCHISM.md %}) 
 
-Test Installation:
+### Install [PySCHISM]({{ site.baseurl }}{% link docs/PySCHISM/PySCHISM.md %}) 
 
-Type
+Test Installation: type `ipython`, then in ipython: `from pyschism.mesh import Hgrid`
 
-`ipython`
-
-In ipython: 
-
-`from pyschism.mesh import Hgrid`
-
-If warning appears, you can try this to remove it (or leave it be): 
+If warning appears, you can try these steps to fix it (or leave it be): 
 
 `pip uninstall shapely`
 
@@ -63,14 +60,6 @@ If warning appears, you can try this to remove it (or leave it be):
 `pip install shapely --no-binary shapely`
 
 
-- [Pylibs]({{ site.baseurl }}{% link docs/Pylibs/Pylibs.md %}) 
+### Install [Pylibs]({{ site.baseurl }}{% link docs/Pylibs/Pylibs.md %}) 
 
-Test Installation:
-
-Type
-
-`ipython`
-
-In ipython: 
-
-`import pylib`
+Test Installation: type `ipython`, then in ipython: `import pylib`
