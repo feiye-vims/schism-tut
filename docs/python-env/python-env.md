@@ -36,7 +36,7 @@ Install (e.g., under your home directory):
 - Append the content of this file `/sciclone/home10/feiye/conda_init_rc` to the end of your `~/.cshrc`
 This step is required because Mamba does not have the option to write the '.cshrc' directly.
 
-- Add one more line 'conda activate base' at the end of the .cshrc file.
+- Add one more line `conda activate base` at the end of the .cshrc file.
 so everytime you login you are in your base environment 
 
 
