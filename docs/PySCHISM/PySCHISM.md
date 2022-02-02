@@ -1,7 +1,7 @@
 ---
 layout: default
 title: PySCHISM
-nav_order: 70
+nav_order: 71
 permalink: docs/PySCHISM
 ---
 
