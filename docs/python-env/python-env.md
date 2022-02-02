@@ -6,13 +6,13 @@ permalink: docs/python-env
 ---
 
 # Overview
-The VIMS group is migrating all pre/post-precessing tasks to Python-based tools,
+The VIMS group is migrating most pre/post-precessing utiliies to Python-based tools,
 e.g., [PySCHISM]({{ site.baseurl }}{% link docs/PySCHISM/PySCHISM.md %}) and [Pylibs]({{ site.baseurl }}{% link docs/Pylibs/Pylibs.md %}).
 Setting up a python environment enables you to take advantage of these readily-made tools.
 
 We recommend using conda or [mamba](https://github.com/mamba-org/mamba) to manage your python environment.
 
-# Example on W&M's Sciclone
+# Example for W&M's Sciclone
 ## Install Mamba from scratch
 We don't recommend using the conda module provided by SciClone, because you may run into permission issues or be confused with different conda versions on different subclusters.
 Following these steps to set up Mamba from scratch:
@@ -51,7 +51,7 @@ so everytime you login you are in your base environment
 
 Test Installation: type `ipython`, then in ipython: `from pyschism.mesh import Hgrid`
 
-If warning appears, you can try these steps to fix it (or leave it be): 
+If warnings appear, you can try these steps to fix them (or leave them be): 
 
 `pip uninstall shapely`
 
