@@ -29,6 +29,7 @@ The latest master version can also be viewed on the [Github page](https://github
 # SCHISM Modules
 Depending on which verification test you are conducting, you may need to enable certain modules when compiling SCHISM.
 Here is a reference:
+
 | Test      | Module needed |
 | ----------- | ----------- |
 | Test_Btrack_Cone | None |
@@ -80,3 +81,4 @@ Here is a reference:
 | Test_WWM_VF_adiabatic_case | WWM |
 | Test_WWM_limon_NODIF | WWM |
 | Test_Williamson5 | None |
+
