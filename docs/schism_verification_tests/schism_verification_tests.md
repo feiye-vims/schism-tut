@@ -9,7 +9,7 @@ permalink: docs/schism_verification_tests
 SCHISM provides benchmark tests for verifying your installation or new code development.
 
 Due to the large file size of these tests, they are distributed via svn.
-You’ll need svn v1.8 or above (see http://svnbook.red-bean.com/ for a manual for using svn).
+You’ll need svn v1.8 or above ([svn manual](http://svnbook.red-bean.com/)).
 Svn clients on linux/unix/windows/Mac should all work.
 
 The command to checkout the tests is:
