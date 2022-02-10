@@ -1,7 +1,7 @@
 ---
 layout: default
 title: SCHISM Verification Tests
-nav_order: 70
+nav_order: 10
 permalink: docs/schism_verification_tests
 ---
 
