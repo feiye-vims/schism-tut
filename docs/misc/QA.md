@@ -6,7 +6,9 @@ nav_order: 1
 permalink: docs/misc/QA
 ---
 
-# Ramping of atmospheric forcing
+# Questions and answers
+
+## Ramping of atmospheric forcing
 Q:<br>
 When SCHISM run begins with "hotstart", does it still do ramping up of wind if nrampwind=1?
 
