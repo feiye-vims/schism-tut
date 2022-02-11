@@ -28,5 +28,5 @@ If "mpi4py" fails to install, use conda or mamba to install it first:
 `mamba install mpi4py`
 
 
-A tutorial in the format of the Jupter Notebook is available here: [pylibs tutorial](https://colab.research.google.com/drive/1X_plhKRxgjBStbv2xMQgGgE_i8Mf2Bnm).
+A tutorial in the format of the Jupter Notebook is available here: [pylibs tutorial](https://colab.research.google.com/drive/1ZPyJznHlr7URYyE73qPcHNFxrlgwZVwb).
 The recommended viewing tool is Google Colab, which can be installed as an app in the Google Chrome browser.
