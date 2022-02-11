@@ -9,7 +9,9 @@ permalink: docs/compound-flood
 # Overview
 {: .no_toc }
 
-Some overview
+SCHISM is able to simulate the so-called "compound flooding" when multiple flood factors co-occur during a wet storm.
+The challenge is including the watershed above sea level in an ocean model.
+![](compound_flood.png)
 
 # Workflows
 {: .no_toc }
