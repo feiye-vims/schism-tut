@@ -2,7 +2,7 @@
 layout: default
 title: Install SCHISM on Ubuntu
 parent: Miscellaneous
-nav_order: 1
+nav_order: 10
 permalink: docs/misc/install_schism_on_ubuntu
 ---
 

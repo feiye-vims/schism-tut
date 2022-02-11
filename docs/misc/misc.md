@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Miscellaneous
-nav_order: 100
+nav_order: 85
 has_children: true
 permalink: docs/misc
 ---
