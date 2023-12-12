@@ -60,8 +60,15 @@ It can also be visualized by:
 ```bash
 [your_run_dir]/Vgrid/plot_VQS.m
 ```
+
+Although LSC<sup>2</sup> gives you much freedom in specifying a vertical discretization at each location,
+we typically define a master plan first (as in gen_vqs.f90), which serves as a look-up table for a specific vertical discretization for a given depth.
+This is also called a master grid for LSC<sup>2</sup>.
+
 A good master grid (the one from the Chesapeake Bay example) looks like:
 ![](master_grid.png)
+
+Here, the master grid (essentially a look-up table) works like this: if a node in the horizontal mesh has a depth of 9.7 m, then it falls between the fourth (x = 4) and fifth (x = 5) points of the master grid, and the discretization at the upper limit x = 5 will be used for this particular mesh node. The specification of the discretization at this node (one entry in vgrid.in) resembles sigma coordinates: -1.0, -0.9, ... , 0.0.
 
 A bad master grid with "backward stairs" looks like:
 ![](backward_stairs.png)
