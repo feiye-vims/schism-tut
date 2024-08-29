@@ -21,39 +21,18 @@ This tutorial site was initially intended as a collection of SCHISM users' exper
 Since the publication of SCHISM's online [manual](https://schism-dev.github.io/schism/master/index.html), contents that are suitable for new users have been moved there.
 We will continue to use this repository for applications that are more advanced or not ready for public dissemination but may be included in the SCHISM manual in the future.
 
-New users please visit the [SCHISM website](https://schism.wiki) and read the [SCHISM Manual](https://schism-dev.github.io/schism/master/index.html) first.
+New users should visit the [SCHISM website](https://schism.wiki) and read the [SCHISM Manual](https://schism-dev.github.io/schism/master/index.html) first.
 Also check the [user forum](http://ccrm.vims.edu/w/index.php/Main_Page) and see if your questions have already been answered.
-There are past tutorials in the forum too.
 
 ---
 
 ## Preparation
 
-### Aquire the SCHISM source code
-
-The recommended way to get the latest SCHISM code is via Github at [schism-dev/schism](https://github.com/schism-dev/schism).
-On the UNIX command line, this is:
-```bash
-git clone https://github.com/schism-dev/schism.git [some_dir_name]
-```
-or
-```bash
-git clone git@github.com:schism-dev/schism.git [some_dir_name]
-```
-The SCHISM source code will be cloned into a folder called "schism/" by default if you don't specify "some_dir_name".
-
-The full path to "schism/" or [some_dir_name] will be referred to as [schism_git_dir] throughout this tutorial.
-You can get the full path of SCHISM Git repo on your computer by
-```bash
-readlink -f [some_dir_name]
-```
-
-### Compile SCHISM
-Cmake is the recommended tool to compile the SCHISM executable and the utility scripts.
+See information on [aquiring](https://schism-dev.github.io/schism/master/getting-started/getting-sourcecode.html) and [compile](https://schism-dev.github.io/schism/master/getting-started/compilation.html) the SCHISM code.
 
 ---
 
-## Contributing
+## Contributing to this tutorial site
 
 You are welcome to add a tutorial of your own SCHISM application by committing to the [Github repository of this tutorial](https://github.com/feiye-vims/schism-tut).
 The VIMS team will quality-check the new additions periodically.
