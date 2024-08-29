@@ -28,7 +28,7 @@ Also check the [user forum](http://ccrm.vims.edu/w/index.php/Main_Page) and see 
 
 ## Preparation
 
-See information on [aquiring](https://schism-dev.github.io/schism/master/getting-started/getting-sourcecode.html) and [compile](https://schism-dev.github.io/schism/master/getting-started/compilation.html) the SCHISM code.
+See information on [acquiring](https://schism-dev.github.io/schism/master/getting-started/getting-sourcecode.html) and [compile](https://schism-dev.github.io/schism/master/getting-started/compilation.html) the SCHISM code.
 
 ---
 
