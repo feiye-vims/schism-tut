@@ -17,11 +17,11 @@ Tutorials on SCHISM applications and utility scripts
 ---
 
 ## Before you start
-This tutorial site is under construction.
+This tutorial site was initially intended as a collection of SCHISM users' experience on different applications.
+Since the publication of SCHISM's online [manual](https://schism-dev.github.io/schism/master/index.html), contents that are suitable for new users have been moved there.
+We will continue to use this repository for applications that are more advanced or not ready for public dissemination but may be included in the SCHISM manual in the future.
 
-The purpose of this site is to provided a tutorial easy for user-contribution and regular update, so that it can keep up with the rapid developement of the SCHISM model.
-
-Please visit the [SCHISM website](https://schism.wiki) and read the [SCHISM Manual](http://ccrm.vims.edu/schismweb/SCHISM_v5.9-Manual.pdf) first.
+New users please visit the [SCHISM website](https://schism.wiki) and read the [SCHISM Manual](https://schism-dev.github.io/schism/master/index.html) first.
 Also check the [user forum](http://ccrm.vims.edu/w/index.php/Main_Page) and see if your questions have already been answered.
 There are past tutorials in the forum too.
 
